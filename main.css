@@ -5,7 +5,6 @@
 
 .header {
     background-color: white;
-    padding: 42px 0;
     min-height: 120px;
 }
 
@@ -17,12 +16,13 @@
 .header-menu {
     display: flex;
     justify-content: space-between;
+    padding: 42px 0;
 }
 
 .menu-block {
     display: flex;
     gap: 80px;
-
+    align-items: center;
 }
 
 .menu-item {
@@ -54,4 +54,73 @@
 .burger {
     width: 37px;
     height: 29px;
+}
+
+
+.heder-slide {
+    min-height: 772px;
+    display: flex;
+    background: url("./assets/symmetry-and-style-PJH3MEU.png") no-repeat top;
+}
+
+.header-slide__figure{
+    margin-left: 160px;
+    margin-bottom: -80px;
+}
+
+.header-slide__content{
+    align-self: center;
+    margin-left: 50px;
+}
+
+.hero-content{
+    max-width: 580px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+._title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 110px;
+    line-height: 134px;
+    color: #363838;
+}
+
+.hero-content__divider{
+    width: 185px;
+    height: 1px;
+    background-color: #6D7278;
+}
+
+.common-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #5A5A5A;
+}
+
+.slider-header__dots{
+    max-width: 200px;
+    margin: 20px auto 0 auto;
+}
+
+.dots {
+    display: flex;
+    gap:30px;
+}
+
+.dot{
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background: #363838;
+}
+
+.dot._active {
+    background: #FFEF35;;
 }
