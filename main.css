@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: white;
+    padding: 42px 0;
+    min-height: 120px;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-block {
+    display: flex;
+    gap: 80px;
+
+}
+
+.menu-item {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #363838E6;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+}
+
+.logo__wrap {
+    height: 30px;
+    width: 100px;
+}
+.menu-block button {
+    border: none;
+    background: inherit;
+    cursor: pointer;
+}
+
+.burger {
+    width: 37px;
+    height: 29px;
+}
