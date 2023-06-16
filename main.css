@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: "Open Sans", "Montserrat", sans-serif;
+}
+
 .header {
     background-color: white;
     min-height: 120px;
@@ -123,4 +127,8 @@
 
 .dot._active {
     background: #FFEF35;;
+}
+
+.dot:hover{
+    cursor: pointer;
 }
